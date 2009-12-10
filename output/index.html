@@ -1,7 +1,3 @@
----
-extension: html
-filter:    erb
----
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -9,8 +5,8 @@ filter:    erb
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title><%= @page.title %></title>
-   <meta name="author" content="<%= @page.author %>" />
+   <title>Sky Asylum</title>
+   <meta name="author" content="" />
 
    <!--- Blueprint CSS Framework -->
    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
@@ -48,7 +44,58 @@ filter:    erb
 	</div>
   </div>
 
- <%= @content %>
+ <div id="slideshow" class="clear span-24">
+    <div id="slideshow-text" class="span-9">
+        <h1>Welcome to<br /><span>SKY ASYLUM</span></h1>
+        <p>We are a New England-based indie film company. Since our start in 2002, we have worked in feature and documentary formats, as well as special events and weddings.</p>
+
+            <p>In addition to our own productions, we have worked in association with Purple Crayon Productions for the sci-fi The Present (accepted at festivals in New York and New Hampshire), and with Fox C. Flix for the crime thriller, Dominoes.</p>
+    </div>
+    <div id="slideshow-pic" class="span-14 last">
+        <div id="cycle">
+            <div id="slide-1" class="slide">
+                <img src="images/SA_logo_w_bird.png" alt="Sky Asylum Logo" />
+                <div class="desc">
+                    <div class="block">
+                        <h2>SKY ASYLUM PRODUCTIONS</h2>
+                        <a href="production.html">VIEW OUR DEMO REEL</a>
+                    </div>
+                </div>  
+            </div>
+            
+            <div id="slide-2" class="slide">
+                <img src="images/King.png" alt="Throne Away" />
+                <div class="desc">
+                    <div class="block">
+                        <h2>THRONE AWAY</h2>
+                        <a href="production.html">VIEW TRAILER</a>
+                    </div>
+                </div>  
+            </div>
+            
+            <div id="slide-2" class="slide">
+                <img src="images/Otherness.png" alt="The Otherness" />
+                <div class="desc">
+                    <div class="block">
+                        <h2>THE OTHERNESS</h2>
+                        <a href="production.html">VIEW TRAILER</a>
+                    </div>
+                </div>  
+            </div>
+                
+        </div>
+                
+    </div>  
+</div>
+
+
+
+
+<div id="main" class="span-24 last">
+    
+</div>
+
+
 </div>
 
 <div id="footer">
