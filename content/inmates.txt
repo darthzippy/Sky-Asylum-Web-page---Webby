@@ -29,6 +29,10 @@ filter:
 														 'Brazil'
 														],
 											 :info   => "Shooting, editing, scripting. Coppola, Gilliam, Scott, Aranofsky, Lumet, Maysles. Chopin, Tool, Tolkien, British Isles, Mara, integrity. I was rescued by Eric, Andrew and Mara from a dumpster at the Haverhill International Film Festival. Sky Asylum backwards is Muslim Skis.</p><p>Mara: He learned his dance moves from Jesus."}) %>
+												
+<%= render(:partial => "inmate", :locals => {:name   => 'Andrew',
+											 :movies => ["See Glenn's List"],
+											 :info   => "A long time ago I recognized that my brain is useless. I traded the ability to quote lines from My Blue Heaven and Boondock Saints seamlessly for the ability to add, subtract and or how to spell in most cases. My mind, heavily muddled with strange tidbits of nonsense, is all I have to rely on as I grow further and further into the shadows and away from normal people. It is ok though…I am not that fond of people anyway."}) %>
 
   <div id="pics" class="clear">
 

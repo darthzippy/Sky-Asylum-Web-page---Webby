@@ -5,6 +5,7 @@ filter:
   - erb
   - markdown
 ---
+<div id="main" class="clear span-24">
 <div id="slideshow" class="clear span-24">
 	<div id="slideshow-text" class="span-9">
 		<h1>Welcome to<br /><span>SKY ASYLUM</span></h1>
@@ -49,6 +50,4 @@ filter:
 	</div>	
 </div>
 
-<div id="main" class="span-24 last">
-	
 </div>

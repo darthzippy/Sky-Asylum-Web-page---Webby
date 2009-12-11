@@ -3,7 +3,7 @@ filter: erb
 ---
 <div id="inmate" class="prepend-3 span-18 append-3 last">
     <div id="info" class="span-14">
-    	<%= name.capitalize %> - <%= info %>
+    	<p><%= name.capitalize %> - <%= info %></p>
 		<div id="list1" class="span-7">
 			<h3>LIST1</h3>
 		</div>
@@ -18,7 +18,7 @@ filter: erb
 			</ul>
 		</div>
     </div>
-	<div class="span-4 last">
+	<div class="headshot span-4 last">
 		<img src="images/<%= name %>.jpg" alt="<%= name %>" />
 	</div>
 </div>

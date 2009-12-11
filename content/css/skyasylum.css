@@ -89,7 +89,7 @@ NAV
 SLIDESHOW
 ---------------------------------------------*/
 #slideshow {
-	height: 335px;
+	height: auto;
 	background-color: white;
 	margin: 0 auto;
 }
@@ -297,11 +297,7 @@ h1.superbold {
 }
 
 .headshot {
-	border: 1px dotted gray;
-	padding: 5px;
-	background-color: white;
-	float: right;
-	margin: 2px 10px;
+
 }
 
 .headshot img {
