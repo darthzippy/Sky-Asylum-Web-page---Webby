@@ -6,7 +6,7 @@ filter:
   - markdown
 ---
 <div id="main" class="clear span-24">
-<div id="slideshow" class="clear span-24">
+<div id="slideshow" class="clear span-24 last">
 	<div id="slideshow-text" class="span-9">
 		<h1>Welcome to<br /><span>SKY ASYLUM</span></h1>
 		<p>We are a New England-based indie film company. Since our start in 2002, we have worked in feature and documentary formats, as well as special events and weddings.</p>
@@ -48,6 +48,25 @@ filter:
 		</div>
 				
 	</div>	
+</div>
+<div id="columns" class="clear span-24 last">
+	<div id="column1" class="prepend-2 column span-5">
+	  <img src="images/box-icon-64x64.png" alt="icon1">	  
+	  <h3>COLUMN1</h3> - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  
+	</div>
+	<div id="column2" class="column span-5">
+	  <img src="images/box-icon-64x64.png" alt="icon2">
+	  <h3>COLUMN2</h3> - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+	</div>
+	<div id="column3" class="column span-5">
+	  <img src="images/box-icon-64x64.png" alt="icon3">
+	  <h3>COLUMN3</h3> - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+	</div>
+	<div id="column4" class="column span-5 append-2 last">
+	  <img src="images/box-icon-64x64.png" alt="icon4">
+	  <h3>COLUMN4</h3> - Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.	
+	</div>
+	
 </div>
 
 </div>

@@ -3,7 +3,7 @@ filter: erb
 ---
 <div id="inmate" class="prepend-3 span-18 append-3 last">
     <div id="info" class="span-14">
-    	<p><%= name.capitalize %> - <%= info %></p>
+    	<p><%= name %> - <%= info %></p>
 		<div id="list1" class="span-7">
 			<h3>LIST1</h3>
 		</div>

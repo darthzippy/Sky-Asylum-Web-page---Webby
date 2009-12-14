@@ -1,7 +1,3 @@
----
-extension: html
-filter:    erb
----
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -9,8 +5,8 @@ filter:    erb
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-   <title><%= @page.title %></title>
-   <meta name="author" content="<%= @page.author %>" />
+   <title>Sky Asylum - In Production</title>
+   <meta name="author" content="" />
 
    <!--- Blueprint CSS Framework -->
    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
@@ -44,7 +40,13 @@ filter:    erb
 	</div>
   </div>
 
- <%= @content %>
+ <div id="main" class="clear span-24">
+
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/9FlJjtG-80U&hl=en_US&fs=1&rel=0&color1=0x3a3a3a&color2=0x999999"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/9FlJjtG-80U&hl=en_US&fs=1&rel=0&color1=0x3a3a3a&color2=0x999999" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object> 
+
+</div>
+
+
 
 
 <div id="footer">

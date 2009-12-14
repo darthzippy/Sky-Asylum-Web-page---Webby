@@ -1,0 +1,12 @@
+---
+title:      Sky Asylum - In Production
+created_at: 2009-12-14 15:21:38.161854 -05:00
+filter:
+  - erb
+  - markdown
+---
+<div id="main" class="clear span-24">
+
+<object width="480" height="385"><param name="movie" value="http://www.youtube.com/v/9FlJjtG-80U&hl=en_US&fs=1&rel=0&color1=0x3a3a3a&color2=0x999999"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/9FlJjtG-80U&hl=en_US&fs=1&rel=0&color1=0x3a3a3a&color2=0x999999" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="480" height="385"></embed></object>	
+
+</div>

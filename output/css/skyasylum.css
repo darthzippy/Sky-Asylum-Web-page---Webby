@@ -3,7 +3,6 @@
 body {
 	color: #777;
 	background-color: #000;
-	background: #000 url(../images/background_slice.png) repeat-x;
 	text-align: center;
 }
 
@@ -17,7 +16,7 @@ a:hover {
 
 #container {
 	margin: 0 auto;
-	background-image: url(../images/background_gradient.png);
+	background-image: url(../images/background_gradient4.png);
 	background-repeat: no-repeat;
 	width: 960px;
 	min-height: 250px;
@@ -30,21 +29,9 @@ HEADER
 ---------------------------------------------*/
 
 #header {
-	height: 125px;
+	height: 170px;
 	margin-bottom: 20px;
 }
-
-#logo {
-	height: 100px;
-	float: left;
-}
-
-#logo img {
-	height: 125px;
-	padding-left: 20px;
-}
-
-
 
 /*-------------------------------------------
 WRAPPER
@@ -56,11 +43,6 @@ NAV
 ---------------------------------------------*/
 #nav {
 	margin: 20px auto;
-}
-
-#nav h2 {
-	color: #fff;
-	text-align: center;
 }
 
 #nav ul li {
@@ -159,6 +141,20 @@ SLIDESHOW
 #slideshow-pic a {
 	text-decoration: none;
 	color: #fff;
+}
+
+/*-------------------------------------------
+COLUMNS
+---------------------------------------------*/
+#columns {
+	margin: 20px 0 40px 0;
+}
+
+#columns .column {
+}
+
+#columns .column img {
+	float: left;
 }
 
 /*-------------------------------------------
@@ -275,12 +271,17 @@ h1.superbold {
 	padding-right: 20px;
 }
 
+#inmate {
+	border-bottom: 1px solid #eee;
+	margin-bottom: 1.5em;
+}
+
 #list1 {
-	background-color: #999;
+
 }
 
 #list2 {
-	background-color: #444;
+
 }
 
 #pics a:hover {
@@ -316,25 +317,18 @@ h1.superbold {
 	font-size: 0.8em;
 }
 
-.list-first {
-	float: left;
-	padding-right: 60px;
-	border: 1px solid red;
-}
-
-.list-second {
-	border: 1px solid green;
-}
-
 
 /*-------------------------------------------
 footer
 ---------------------------------------------*/
 
 #footer {
-		height: 50px;
 		clear: both;
-		margin-top: 40px;
+		margin: 0 auto;
+		background-image: url(../images/background_gradient_footer.png);
+		background-repeat: no-repeat;
+		width: 960px;
+		min-height: 250px;
 }
 
 #footer a {
