@@ -42,28 +42,34 @@ WRAPPER
 NAV
 ---------------------------------------------*/
 #nav {
-	margin: 20px auto;
+	margin: 161px 320px;
+	
 }
 
 #nav ul li {
 	list-style: none;
 	display: inline;
-	padding: 10px 15px;
 	font-size: 1.2em;
+	font-weight: bold;
+	
 }
 
-#nav ul li.current {
-	font-style: italic;
-	font-weight: bold;
-}
 
 #nav ul li a {
+	padding: 10px 10px;
 	text-decoration: none;
-	color: #fff;
+	color: #444;
+	background-color: #999;
+}
+
+#nav ul li a.current {
+	color: #222;
+	background-color: #fff;
 }
 
 #nav ul li a:hover {
-	color: #666;
+	color: #222;
+	background-color: #fff;
 }
 
 
@@ -105,7 +111,7 @@ SLIDESHOW
 	position: relative;
 	overflow: hidden;
 	color: #fff;
-	padding-top: 20px;
+	padding-top: 30px;
 	margin-left: 40px;
 }
 
@@ -150,7 +156,8 @@ COLUMNS
 	margin: 20px 0 40px 0;
 }
 
-#columns .column {
+#columns .column h3 {
+	padding-top: 30px;
 }
 
 #columns .column img {
@@ -325,6 +332,7 @@ footer
 #footer {
 		clear: both;
 		margin: 0 auto;
+		padding-top: 40px;
 		background-image: url(../images/background_gradient_footer.png);
 		background-repeat: no-repeat;
 		width: 960px;

@@ -1,7 +1,11 @@
+SITE.user = 'darthzippy'
+SITE.host = 'skyasylum.com'
+SITE.remote_dir = ''
 
 task :default => :build
 
 desc 'deploy the site to the webserver'
 task :deploy => [:build, 'deploy:rsync']
+
 
 # EOF
