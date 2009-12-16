@@ -1,0 +1,12 @@
+---
+filter: erb
+---
+<div id="slide-<%= slide_id %>" class="slide">
+	<img src="images/<%= image_name %>" alt="<%= alt_name %>" />
+	<div class="desc">
+		<div class="block">
+			<h2><%= banner_text %></h2>
+			<a href="<%= banner_link %>"><%= banner_link_text %></a>
+		</div>
+	</div>	
+</div>
