@@ -1,0 +1,8 @@
+---
+filter: erb
+---
+<div id="column-<%= column_id %>" class="<%= column_span %>">`
+  <img src="images/<%= image_name %>" alt="<%= alt_name %>">	  
+  <h3><%= column_title %></h3>
+  <p><%= description %></p>
+</div>
