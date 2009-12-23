@@ -3,11 +3,11 @@ filter: erb
 ---
 <div id="inmate" class="prepend-3 span-18 append-3 last">
     <div id="info" class="span-14">
-    	<p><%= name %> - <%= info %></p>
+    	<h3><%= name %></h3>
+		<p>
+			<%= info %>
+		</p>
 		<div id="list1" class="span-7">
-			<h3>LIST1</h3>
-		</div>
-		<div id="list2" class="span-7 last">
 			<h3>FAVORITE MOVIES</h3>
 			<ul>
 				<% movies.each do |movie| %>
@@ -16,6 +16,9 @@ filter: erb
 				  </li>
 				<% end %>
 			</ul>
+		</div>
+		<div id="list2" class="span-7 last">
+			<h3>OTHER STUFF</h3>
 		</div>
     </div>
 	<div class="headshot span-4 last">

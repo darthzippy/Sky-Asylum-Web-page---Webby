@@ -38,41 +38,49 @@ filter:
 														:banner_link      => 'production.html',
 														:banner_link_text => 'VIEW TRAILER'
 														}) %>
+														
+			<%= render(:partial => "slide", :locals => {:slide_id         => '4',
+														:image_name       => 'ParadiseRoad.jpg',
+														:alt_name         => 'Paradise Road',
+														:banner_text      => 'PARADISE ROAD',
+														:banner_link      => 'production.html',
+														:banner_link_text => 'VIEW MOVIE'
+														}) %>
 		</div>	
 	</div>	
 </div>
 
 <div id="columns" class="clear span-24 last">
 	  	<%= render(:partial => "column", :locals => {:column_id    => '1',
-													 :column_span  => 'prepend-2 column span-5', 
+													 :column_span  => 'prepend-2 span-5', 
 													 :image_name   => 'filmstrip.png',
 													 :alt_name     => 'filmstrip',
-													 :column_title => 'COLUMN1',
+													 :column_title => 'FEATURE-LENGTH FILMS AND DOCUMENTARIES',
 													 :description  => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 													}) %>
 													
 		<%= render(:partial => "column", :locals => {:column_id    => '2',
-													:column_span  => 'column span-5', 
-													:image_name   => 'filmstrip.png',
-													:alt_name     => 'filmstrip',
-													:column_title => 'COLUMN2',
-													:description  => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+													:column_span  => 'span-5', 
+													:image_name   => 'dvd.png',
+													:alt_name     => 'dvd',
+													:column_title => 'VHS TO DVD TRANSFERS',
+													:description  => "Transfer all of your old VHS video footage to DVD or digital format. Protect your memories by keeping them in a format that will last for years to come."
 													}) %>
 																								
 		<%= render(:partial => "column", :locals => {:column_id    => '3',
-													:column_span  => 'column span-5', 
-													:image_name   => 'filmstrip.png',
-													:alt_name     => 'filmstrip',
+													:column_span  => 'span-5', 
+													:image_name   => 'ipod.png',
+													:alt_name     => 'ipod',
 													:column_title => 'COLUMN3',
 													:description  => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 													}) %>
 
 		<%= render(:partial => "column", :locals => {:column_id    => '4',
-													:column_span  => 'column span-5 append-2 last', 
-													:image_name   => 'filmstrip.png',
-													:alt_name     => 'filmstrip',
-													:column_title => 'COLUMN4',
-													:description  => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+													:column_span  => 'span-5 append-2 last', 
+													:image_name   => 'creditcard.png',
+													:alt_name     => 'creditcard',
+													:column_title => 'WEDDING AND EVENT FILMING',
+													:description  => "Let us capture the memories of that special day."
 													}) %>																																																																								
 </div>
 

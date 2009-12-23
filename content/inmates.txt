@@ -19,7 +19,7 @@ filter:
 												          'Get Shorty',
 												          'Sense & Sensibilty'
 														  ],
-											 :info   => "Mara is the other side of Glenn. As well as being an actress, she is SA's production and office manager. Up in the Nest, she lends her eyes and opinions. She interprets dreams and enjoys quiet timed with Glenn, their 3 dogs and a cat. She is a sucker for Brit-pop and minstrel rock. She would like a part on The Office and is available to be Pam's sister. She has been known to set up the microphone brush to the delight of the angels in the room."}) %>
+											 :info   => "Mara is the other side of Glenn. As well as being an actress, she is SA's production and office manager. Up in the Nest, she lends her eyes and opinions. She interprets dreams and enjoys quiet time with Glenn, their 3 dogs and a cat. She is a sucker for Brit-pop and minstrel rock. She would like a part on The Office and is available to be Pam's sister. She has been known to set up the microphone brush to the delight of the angels in the room."}) %>
 											
 <%= render(:partial => "inmate", :locals => {:name   => 'Glenn',
 											 :movies => ['Fail-safe',
@@ -41,12 +41,8 @@ filter:
 												         'Rear Window',
 												         'Seven Samurai'
 														],
-											 :info   => "A long time ago I recognized that my brain is useless. I traded the ability to quote lines from My Blue Heaven and Boondock Saints seamlessly for the ability to add, subtract and or how to spell in most cases. My mind, heavily muddled with strange tidbits of nonsense, is all I have to rely on as I grow further and further into the shadows and away from normal people. It is ok though…I am not that fond of people anyway."}) %>
+											 :info   => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."}) %>
 											
-
-  <div id="pics" class="clear">
-
-
 
 <!-- MARA -->
 		<div id="mara" class="inmate">
@@ -91,12 +87,6 @@ filter:
 
 		  </div>
 		</div>
-	
-		<div class="separator">	
-		</div>
-	
-		
-	
-	</div>
+
 </div>
 
