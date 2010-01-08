@@ -157,8 +157,11 @@ COLUMNS
 }
 
 #columns .column h3 {
-	padding-top: 20px;
+<<<<<<< HEAD
 	padding-top: 10px;
+=======
+	padding-top: 20px;
+>>>>>>> 114f013c0f72351988f59d9281bee4e9adf28eb7
 }
 
 #columns .column p {
