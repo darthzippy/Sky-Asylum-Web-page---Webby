@@ -10,8 +10,12 @@ filter:
 	<div id="slideshow-text" class="span-9">
 		<h1>Welcome to<br /><span>SKY ASYLUM</span></h1>
 		<p>We are a New England-based indie film company. Since our start in 2002, we have worked in feature and documentary formats, as well as special events and weddings.</p>
-
-			<p>In addition to our own productions, we have worked in association with Purple Crayon Productions for the sci-fi The Present (accepted at festivals in New York and New Hampshire), and with Fox C. Flix for the crime thriller, Dominoes.</p>
+		
+		<p>Sky Asylum exists to shine the light of the truth of creation and our Creator through the medium of film. It exists to hold a mirror up to the beauty, joy and pain of the every day; reflecting the black and white and full color of the wide spectrum of life.</p>
+	
+		<p>In addition to our own productions, we have worked in association with Purple Crayon Productions for the sci-fi The Present (accepted at festivals in New York and New Hampshire), and with Fox C. Flix for the crime thriller, Dominoes.</p>
+		
+		<p>Made of a team of poets, dreamers, pirates and adventurers, Sky Asylum will continue to make quality films as long as those movies are relevant and armed with purpose.</p>
 	</div>
 	<div id="slideshow-pic" class="span-14 last">
 		<div id="cycle">
@@ -52,15 +56,15 @@ filter:
 
 <div id="columns" class="clear span-24 last">
 	  	<%= render(:partial => "column", :locals => {:column_id    => '1',
-													 :column_span  => 'prepend-2 span-5', 
+													 :column_span  => 'prepend-1 span-7', 
 													 :image_name   => 'filmstrip.png',
 													 :alt_name     => 'filmstrip',
-													 :column_title => 'FEATURE-LENGTH FILMS AND DOCUMENTARIES',
+													 :column_title => 'FEATURE-LENGTH FILMS & DOCUMENTARIES',
 													 :description  => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
 													}) %>
 													
 		<%= render(:partial => "column", :locals => {:column_id    => '2',
-													:column_span  => 'span-5', 
+													:column_span  => 'span-7', 
 													:image_name   => 'dvd.png',
 													:alt_name     => 'dvd',
 													:column_title => 'VHS TO DVD TRANSFERS',
@@ -68,15 +72,7 @@ filter:
 													}) %>
 																								
 		<%= render(:partial => "column", :locals => {:column_id    => '3',
-													:column_span  => 'span-5', 
-													:image_name   => 'ipod.png',
-													:alt_name     => 'ipod',
-													:column_title => 'COLUMN3',
-													:description  => "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-													}) %>
-
-		<%= render(:partial => "column", :locals => {:column_id    => '4',
-													:column_span  => 'span-5 append-2 last', 
+													:column_span  => 'span-7 append-2 last', 
 													:image_name   => 'creditcard.png',
 													:alt_name     => 'creditcard',
 													:column_title => 'WEDDING AND EVENT FILMING',

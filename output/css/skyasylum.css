@@ -16,7 +16,7 @@ a:hover {
 
 #container {
 	margin: 0 auto;
-	background-image: url(../images/background_gradient4.png);
+	background-image: url(../images/background_gradient5.jpg);
 	background-repeat: no-repeat;
 	width: 960px;
 	min-height: 250px;
@@ -157,9 +157,12 @@ COLUMNS
 }
 
 #columns .column h3 {
-	padding-top: 30px;
+	padding-top: 20px;
 }
 
+#columns .column p {
+	clear: both;
+}
 #columns .column img {
 	float: left;
 	padding: 5px;

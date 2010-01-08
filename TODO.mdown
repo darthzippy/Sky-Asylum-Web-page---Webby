@@ -8,6 +8,15 @@
 
 ***
 
+## MISSION ##
+
+Remove mission tab completely (?)
+Mission statement "Exploring truth through film" as tagline (in header?) - replace 'Making great movies so you don't have to'
+Repurpose mission text to main page intro paragraph
+Rename 'Mission' tab to 'The Truth' and rewrite mission statment there
+
+***
+
 ## INMATES ##
 
 ***
