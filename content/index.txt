@@ -6,52 +6,16 @@ filter:
   - markdown
 ---
 <div id="main" class="clear span-24">
-<div id="slideshow" class="clear span-24 last">
-	<div id="slideshow-text" class="span-9">
-		<h1>Welcome to<br /><span>SKY ASYLUM</span></h1>
-		<p>We are a New England-based indie film company. Since our start in 2002, we have worked in feature and documentary formats, as well as special events and weddings.</p>
-		
-		<p>Sky Asylum exists to shine the light of the truth of creation and our Creator through the medium of film. It exists to hold a mirror up to the beauty, joy and pain of the every day; reflecting the black and white and full color of the wide spectrum of life.</p>
+<div id="slideshow" class="clear span-23 last">
+	<%= render(:partial => "slideshow") %>
+	<h1>Welcome to<br /><span>SKY ASYLUM</span></h1>
+ 
+	<p>We are a New England-based indie film company. Established in 2002, we have worked in features and documentaries, as well as covering special events.</p>
 	
-		<p>In addition to our own productions, we have worked in association with Purple Crayon Productions for the sci-fi The Present (accepted at festivals in New York and New Hampshire), and with Fox C. Flix for the crime thriller, Dominoes.</p>
-		
-		<p>Made of a team of poets, dreamers, pirates and adventurers, Sky Asylum will continue to make quality films as long as those movies are relevant and armed with purpose.</p>
-	</div>
-	<div id="slideshow-pic" class="span-14 last">
-		<div id="cycle">
-			<%= render(:partial => "slide", :locals => {:slide_id         => '1',
-														:image_name       => 'SA_logo_w_bird.png',
-														:alt_name         => 'Sky Asylum Logo',
-														:banner_text      => 'SKY ASYLUM PRODUCTIONS',
-														:banner_link      => 'production.html',
-														:banner_link_text => 'VIEW OUR DEMO REEL'
-														}) %>
-														
-		 	<%= render(:partial => "slide", :locals => {:slide_id         => '2',
-														:image_name       => 'King.png',
-														:alt_name         => 'Throne Away',
-														:banner_text      => 'THRONE AWAY',
-														:banner_link      => 'production.html',
-														:banner_link_text => 'VIEW TRAILER'
-														}) %>
-														
-			<%= render(:partial => "slide", :locals => {:slide_id         => '3',
-														:image_name       => 'Otherness.png',
-														:alt_name         => 'The Otherness',
-														:banner_text      => 'THE OTHERNESS',
-														:banner_link      => 'production.html',
-														:banner_link_text => 'VIEW TRAILER'
-														}) %>
-														
-			<%= render(:partial => "slide", :locals => {:slide_id         => '4',
-														:image_name       => 'ParadiseRoad.jpg',
-														:alt_name         => 'Paradise Road',
-														:banner_text      => 'PARADISE ROAD',
-														:banner_link      => 'production.html',
-														:banner_link_text => 'VIEW MOVIE'
-														}) %>
-		</div>	
-	</div>	
+	<p>Sky Asylum are primarily story-tellers. We are a motley crew of poets, dreamers, pirates and adventurers striving to make films that are relevant and armed with purpose.</p>
+	
+	<p>In addition to our own productions, we have worked in association with [Purple Crayon Productions](http://www.purplec.com) for the sci-fi noir The Present (accepted at festivals in New York and New Hampshire), and with Fox C. Flix for the crime drama Dominoes.</p>
+	
 </div>
 
 <div id="columns" class="clear span-24 last">
