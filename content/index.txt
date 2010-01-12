@@ -14,7 +14,7 @@ filter:
 	
 	<p>Sky Asylum are primarily story-tellers. We are a motley crew of poets, dreamers, pirates and adventurers striving to make films that are relevant and armed with purpose.</p>
 	
-	<p>In addition to our own productions, we have worked in association with [Purple Crayon Productions](http://www.purplec.com) for the sci-fi noir The Present (accepted at festivals in New York and New Hampshire), and with Fox C. Flix for the crime drama Dominoes.</p>
+	<p>In addition to our own productions, we have worked in association with <a href="http://www.purplec.com">Purple Crayon Productions</a> for the sci-fi noir The Present (accepted at festivals in New York and New Hampshire), and with Fox C. Flix for the crime drama Dominoes.</p>
 	
 </div>
 

@@ -112,7 +112,8 @@ SLIDESHOW
 	overflow: hidden;
 	color: #fff;
 	padding-top: 0px;
-	margin-left: 40px;
+	margin-left: 15px;
+	margin-right: 5px;
 }
 
 #slideshow-pic h2 {
@@ -149,6 +150,9 @@ SLIDESHOW
 	color: #fff;
 }
 
+#slideshow-pic a:hover {
+	color: #777;
+}
 /*-------------------------------------------
 COLUMNS
 ---------------------------------------------*/
