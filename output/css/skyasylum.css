@@ -42,8 +42,7 @@ WRAPPER
 NAV
 ---------------------------------------------*/
 #nav {
-	margin: 161px 320px;
-	
+	margin: 161px 320px;	
 }
 
 #nav ul li {
@@ -51,7 +50,6 @@ NAV
 	display: inline;
 	font-size: 1.2em;
 	font-weight: bold;
-	
 }
 
 
@@ -162,7 +160,6 @@ COLUMNS
 
 #columns .column h3 {
 	padding-top: 20px;
-	padding-top: 10px;
 }
 
 #columns .column p {
@@ -180,6 +177,8 @@ MAIN
 	height: auto;
 	background-color: white;
 	margin: 0 auto;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
 }
 
 

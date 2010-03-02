@@ -10,9 +10,30 @@ filter:
 	<div id="production-text" class="span-9">
 	<h1 class="superbold">OUR WORK</h1>
 	</div>
-	<div id="production-movie" class="span-14 last">
-		<object width="400" height="300"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=6399597&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=6399597&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=0&amp;color=&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="300"></embed></object><p><a href="http://vimeo.com/6399597">Sky Asylum Demo Reel - Aug2009 - WORK IN PROGRESS</a> from <a href="http://vimeo.com/user574755">Eric Givens</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+	
+	<div id="title-1" class="clear prepend-1 span-23">
+		<h2>JAY ATKINSON'S <em>PARADISE ROAD</em></h2>
 	</div>
+	<div id="movie-1" class="movie clear prepend-1 span-10">
+	<object width="400" height="265"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=9843060&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=9843060&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="265"></embed></object>	
+	</div>
+	<div id="description-1" class="description prepend-1 span-10">
+		Author Jay Atkinson discusses his book, <em>Paradise Road</em>, which traces the cross-country journey of Jack Kerouac that became the foundation of his novel <em>On the Road</em>. The author highlights Kerouac's roots in Lowell, Massachusetts.
+		<br />
+		<br />Get more info at <a href="www.jayatkinson.com">www.jayatkinson.com</a>
+	</div>
+	
+	<div id="title-2" class="clear prepend-top prepend-1 span-23">
+		<h2>OUR DEMO REEL</h2>
+	</div>
+	<div id="movie-1" class="movie clear prepend-1 span-10">
+	<object width="400" height="265"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=8828974&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=8828974&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="265"></embed></object>	
+	</div>
+	<div id="description-1" class="description prepend-1 span-10">
+		Our demo reel
+	</div>
+	
+	
 	
 	<div id="thumbnails" class="clear prepend-2 span-20 append2 last">
 	TEST	
