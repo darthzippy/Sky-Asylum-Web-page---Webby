@@ -199,6 +199,11 @@ PRODUCTION
 	margin: 20px auto;
 }
 
+.thumbnail {
+	border: 1px dotted #444;
+	height: 100px;
+}
+
 /*-- SLIDING THUMBNAILS - NO LONGER IN USE 
 
 #container1 {

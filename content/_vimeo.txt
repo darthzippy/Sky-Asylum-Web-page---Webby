@@ -1,0 +1,12 @@
+---
+filter: erb
+---
+<div id="title-<%= movie_index %>" class="clear prepend-1 span-23">
+	<h2><%= title %></h2>
+</div>
+<div id="movie-<%= movie_index %>" class="movie clear prepend-1 span-10">
+<object width="<%= width %>" height="<%= height %>"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="<%= vimeo_url %>&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed src="<%= vimeo_url %>&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="<%= width %>" height="<%= height %>"></embed></object>	
+</div>
+<div id="description-<%= movie_index %>" class="description prepend-1 span-10">
+	<%= movie_description %>
+</div>

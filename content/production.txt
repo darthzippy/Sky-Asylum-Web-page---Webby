@@ -5,38 +5,44 @@ filter:
   - erb
   - markdown
 ---
+
 <div id="main" class="clear span-24">
 	
 	<div id="production-text" class="span-9">
 	<h1 class="superbold">OUR WORK</h1>
 	</div>
 	
-	<div id="title-1" class="clear prepend-1 span-23">
-		<h2>JAY ATKINSON'S <em>PARADISE ROAD</em></h2>
-	</div>
-	<div id="movie-1" class="movie clear prepend-1 span-10">
-	<object width="400" height="265"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=9843060&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=9843060&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="265"></embed></object>	
-	</div>
-	<div id="description-1" class="description prepend-1 span-10">
-		Author Jay Atkinson discusses his book, <em>Paradise Road</em>, which traces the cross-country journey of Jack Kerouac that became the foundation of his novel <em>On the Road</em>. The author highlights Kerouac's roots in Lowell, Massachusetts.
-		<br />
-		<br />Get more info at <a href="www.jayatkinson.com">www.jayatkinson.com</a>
-	</div>
-	
-	<div id="title-2" class="clear prepend-top prepend-1 span-23">
-		<h2>OUR DEMO REEL</h2>
-	</div>
-	<div id="movie-1" class="movie clear prepend-1 span-10">
-	<object width="400" height="265"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=8828974&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=8828974&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="400" height="265"></embed></object>	
-	</div>
-	<div id="description-1" class="description prepend-1 span-10">
-		Our demo reel
-	</div>
+	<%= render(:partial => "vimeo", :locals => {:movie_index   		=> '1',
+												:title          	=> "JAY ATKINSON'S <em>PARADISE ROAD</em>",
+												:width		  		=> '400',
+												:height        		=> '265',
+												:vimeo_url     		=> 'http://vimeo.com/moogaloop.swf?clip_id=9843060',
+												:movie_description  => "Author Jay Atkinson discusses his book, <em>Paradise Road</em>, which traces the cross-country journey of Jack Kerouac that became the foundation of his novel <em>On the Road</em>. The author highlights Kerouac's roots in Lowell, Massachusetts.
+												<br />
+												<br />Get more info at www.jayatkinson.com"}) %>
+		
+	<%= render(:partial => "vimeo", :locals => {:movie_index   		=> '2',
+												:title          	=> "OUR DEMO REEL",
+												:width		  		=> '400',
+												:height        		=> '265',
+												:vimeo_url     		=> 'http://vimeo.com/moogaloop.swf?clip_id=8828974',
+												:movie_description  => "Our demo reel"}) %>
 	
 	
 	
-	<div id="thumbnails" class="clear prepend-2 span-20 append2 last">
-	TEST	
+	<div id="thumbnails" class="clear prepend-2 span-20 append2">
+		<div id="thumb1" class="thumbnail span-5">
+			<h3>Demo Reel</h3>
+			<img src="images/thumbnail_bird.png">
+		</div>
+		<div id="thumb1" class="thumbnail span-5">
+			<h3>Dominoes</h3>
+			<img src="images/thumbnail_dominoes.png">
+		</div>
+		<div id="thumb1" class="thumbnail span-5">
+			<h3>Throne Away</h3>
+			<img src="images/thumbnail_throneaway.png">
+		</div>
 	</div>
 
 	
