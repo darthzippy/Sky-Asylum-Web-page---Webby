@@ -34,16 +34,21 @@ filter:
 		<div id="thumb1" class="thumbnail span-5">
 			<h3>Demo Reel</h3>
 			<img src="images/thumbnail_bird.png">
+			<p>This is a description of the movie</p>
 		</div>
 		<div id="thumb1" class="thumbnail span-5">
 			<h3>Dominoes</h3>
 			<img src="images/thumbnail_dominoes.png">
+			<p>This is a description of the movie</p>
 		</div>
 		<div id="thumb1" class="thumbnail span-5">
 			<h3>Throne Away</h3>
 			<img src="images/thumbnail_throneaway.png">
+			<p>This is a description of the movie</p>
 		</div>
 	</div>
+	
+	
 
 	
 

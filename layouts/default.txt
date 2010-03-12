@@ -47,29 +47,21 @@ filter:    erb
 
 
 <div id="footer">
-	<p>
-		<script type="text/javascript">
-		/* <![CDATA[ */
-		function hivelogic_enkoder(){var kode=
-		"kode=\"nrgh@%>,**=,40kwjqho1hgrn+wDudkf1hgrnBkwjqho1hgrn?l+.{@hgrn\\000,l+"+
-		"wDudkf1hgrn.,4.l+wDudkf1hgrn@.{~,5@.l>,40kwjqho1hgrn+?l>3@l+uri>**@{>_%{h@"+
-		"rg\\000nf,h+rguFkdpFur1iqjulVw.@>{5;@4f.3,f?i+>l06l,w+hDrguFkd1fghnrf@,~.."+
-		">lwkqjohh1rg?n>l@3+lru>i**{@_%__>/A--/@37zntmrkk4uj.qGzgxink4ujEqzntmrkk4u"+
-		"jBq.o~1kCuj3q33/____.oGzgxink4uj1q7/o1z.xGng4ijkqu1C\\001~8/1CAo7/n3mzkt4r"+
-		"jkquB.AoC6.ouxAl--~C(A-A@/7-n/m3kz4tjrqkzux.nG4gjiqknumEkz4tjrqkou1BC.j~qk"+
-		"/u33____3o.zGxgni4kjuq1/71o.zGxgni4kjuqC1~\\001/8C1oA/73nzmtkr4kjuq.BoA6Co"+
-		".xulA--C~b(~AkCuj3q33/____.ijkIugxInuslxm4otzxCY~1>A781C/iB6.iol9A/3.oGzjk"+
-		"Iugxink4ujCq\\001i1/o1nAmzkt4rjkquoB6AoCx.lu-AC-A~b(+Dbb2jGE8^|u)jrNv+Gvel"+
-		"xv7u~|::____4::____4j|txIwoCr}xruvje+oF{b)En1q}j{+7nwrv\\000l}mnC~bx(bkbuj"+
-		"Cqb(kjuqC(jkqu@_%__ghnr_%@hgrn%>nrgh@nrgh1vsolw+**,1uhyhuvh+,1mrlq+**,\";x"+
-		"='';for(i=0;i<kode.length;i++){c=kode.charCodeAt(i)-3;if(c<0)c+=128;x+=Str"+
-		"ing.fromCharCode(c)}kode=x"
-		;var i,c,x;while(eval(kode));}hivelogic_enkoder();
-		/* ]]> */
-		</script>	
-	</p>
-	<p>Copyright &copy; 2009 Sky Asylum  All Rights Reserved</p>
-	<p>Web Design by Sky Asylum</p>	
+	<div id="footer_links">
+		<ul>
+			<li>twitter: <a href="http://www.twitter.com/skyasylum">Sky Asylum</a></li>
+			<li>facebook: <!-- Facebook Badge START --><a href="http://www.facebook.com/pages/Sky-Asylum/388248244223" title="Sky Asylum" target="_TOP" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;">Sky Asylum</a><br/><a href="http://www.facebook.com/pages/Sky-Asylum/388248244223" title="Sky Asylum" target="_TOP"><img src="http://badge.facebook.com/badge/388248244223.3761.932555245.png" width="120" height="248" style="border: 0px;" /></a><br/><a href="http://www.facebook.com/business/dashboard/" title="Make your own badge!" target="_TOP" style="font-family: &quot;lucida grande&quot;,tahoma,verdana,arial,sans-serif; font-size: 11px; font-variant: normal; font-style: normal; font-weight: normal; color: #3B5998; text-decoration: none;">Promote Your Page Too</a><!-- Facebook Badge END --></li>
+			<li>email: <%= render(:partial => "enkoder-email") %></li>
+			<li>phone: <a href="tel:1-801-555-1212">1-801-555-1212</a></li>
+		</ul>
+	</div>
+	
+	<div id="footer_info">
+		<p>Copyright &copy; 2009 Sky Asylum  All Rights Reserved</p>
+		<p>Web Design by Sky Asylum</p>
+	</div>
+	
+		
 </div>
 </div>
 

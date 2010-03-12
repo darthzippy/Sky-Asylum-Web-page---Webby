@@ -199,6 +199,11 @@ PRODUCTION
 	margin: 20px auto;
 }
 
+#thumbnails img {
+	float: left;
+	padding-right: 3px;
+}
+
 .thumbnail {
 	border: 1px dotted #444;
 	height: 100px;
@@ -357,5 +362,9 @@ footer
 #footer p {
 	font: 100% "Lucida Grande", "Trebuchet MS", Verdana, sans-serif;
 	color: #888;
-	text-align: center;
+	text-align: left;
+}
+
+#footer_links {
+	float: right;
 }
