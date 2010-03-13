@@ -18,9 +18,6 @@ filter:    erb
       <link rel="stylesheet" href="css/blueprint/ie.css" type="text/css" media="screen, projection">
    <![endif]-->
 
-   <!-- CodeRay syntax highlighting CSS -->
-   <link rel="stylesheet" href="css/coderay.css" type="text/css" />
-
    <!-- Homepage CSS -->
    <link rel="stylesheet" href="css/site.css" type="text/css" media="screen, projection" />
    <link rel="stylesheet" href="css/skyasylum.css" type="text/css" media="screen, projection" />
@@ -37,8 +34,6 @@ filter:    erb
 			<li><a href="production.html">OUR WORK</a></li>
 			<li><a href="inmates.html">INMATES</a></li>
 			<li><a href="mission.html">MISSION</a></li>
-			<li><a href="services.html">SERVICES</a></li>
-			<li><a href="http://www.skyasylum.com/blog">BLOG</a></li>
 		</ul>	
 	</div>
   </div>

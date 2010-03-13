@@ -9,7 +9,7 @@ filter:
 <div id="main" class="clear span-24">
 	
 	<div id="production-text" class="span-9">
-	<h1 class="superbold">OUR WORK</h1>
+		<h1 class="superbold">OUR WORK</h1>
 	</div>
 	
 	<%= render(:partial => "vimeo", :locals => {:movie_index   		=> '1',
@@ -26,30 +26,5 @@ filter:
 												:width		  		=> '400',
 												:height        		=> '265',
 												:vimeo_url     		=> 'http://vimeo.com/moogaloop.swf?clip_id=8828974',
-												:movie_description  => "Our demo reel"}) %>
-	
-	
-	
-	<div id="thumbnails" class="clear prepend-2 span-20 append2">
-		<div id="thumb1" class="thumbnail span-5">
-			<h3>Demo Reel</h3>
-			<img src="images/thumbnail_bird.png">
-			<p>This is a description of the movie</p>
-		</div>
-		<div id="thumb1" class="thumbnail span-5">
-			<h3>Dominoes</h3>
-			<img src="images/thumbnail_dominoes.png">
-			<p>This is a description of the movie</p>
-		</div>
-		<div id="thumb1" class="thumbnail span-5">
-			<h3>Throne Away</h3>
-			<img src="images/thumbnail_throneaway.png">
-			<p>This is a description of the movie</p>
-		</div>
-	</div>
-	
-	
-
-	
-
+												:movie_description  => "Our demo reel"}) %>												
 </div>

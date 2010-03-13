@@ -17,9 +17,6 @@ filter: erb
 				<% end %>
 			</ul>
 		</div>
-		<div id="list2" class="span-7 last">
-			<h3>OTHER STUFF</h3>
-		</div>
     </div>
 	<div class="headshot span-4 last">
 		<img src="images/<%= name %>.jpg" alt="<%= name %>" />

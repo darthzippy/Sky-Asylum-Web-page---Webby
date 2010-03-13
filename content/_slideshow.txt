@@ -11,22 +11,6 @@ filter: erb
 													:banner_link_text => 'VIEW OUR DEMO REEL'
 													}) %>
 													
-	 	<%= render(:partial => "slide", :locals => {:slide_id         => '2',
-													:image_name       => 'King.png',
-													:alt_name         => 'Throne Away',
-													:banner_text      => 'THRONE AWAY',
-													:banner_link      => 'production.html',
-													:banner_link_text => 'VIEW TRAILER'
-													}) %>
-													
-		<%= render(:partial => "slide", :locals => {:slide_id         => '3',
-													:image_name       => 'Otherness.png',
-													:alt_name         => 'The Otherness',
-													:banner_text      => 'THE OTHERNESS',
-													:banner_link      => 'production.html',
-													:banner_link_text => 'VIEW TRAILER'
-													}) %>
-													
 		<%= render(:partial => "slide", :locals => {:slide_id         => '4',
 													:image_name       => 'ParadiseRoad.jpg',
 													:alt_name         => 'Paradise Road',

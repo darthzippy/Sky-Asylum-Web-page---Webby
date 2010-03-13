@@ -42,7 +42,7 @@ WRAPPER
 NAV
 ---------------------------------------------*/
 #nav {
-	margin: 161px 320px;	
+	margin: 161px 520px;	
 }
 
 #nav ul li {
@@ -179,6 +179,7 @@ MAIN
 	margin: 0 auto;
 	-webkit-border-radius: 12px;
 	-moz-border-radius: 12px;
+	padding-bottom: 20px;
 }
 
 
