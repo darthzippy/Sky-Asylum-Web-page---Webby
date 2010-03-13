@@ -1,5 +1,18 @@
 $(document).ready(function() {
 	
+			$(".tweet").tweet({
+	            username: "skyasylum",
+	            join_text: "auto",
+	            avatar_size: 16,
+	            count: 3,
+	            auto_join_text_default: "we said,", 
+	            auto_join_text_ed: "we",
+	            auto_join_text_ing: "we were",
+	            auto_join_text_reply: "we replied to",
+	            auto_join_text_url: "we were checking out",
+	            loading_text: "loading tweets..."
+	        });
+	
 	//Main Page Slideshow Rotator
 	$('#slideshow-pic').hover(function(){
 		$('#slideshow-pic .desc').slideToggle(650);
