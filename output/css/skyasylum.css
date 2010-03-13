@@ -345,13 +345,13 @@ footer
 ---------------------------------------------*/
 
 #footer {
-		clear: both;
-		margin: 0 auto;
-		padding-top: 40px;
-		background-image: url(../images/background_gradient_footer.png);
-		background-repeat: no-repeat;
-		width: 960px;
-		min-height: 250px;
+	clear: both;
+	margin: 0 auto;
+	padding-top: 40px;
+	background-image: url(../images/background_gradient_footer.png);
+	background-repeat: no-repeat;
+	width: 960px;
+	min-height: 250px;
 }
 
 #footer a {
@@ -367,4 +367,30 @@ footer
 
 #footer_links {
 	float: right;
+}
+
+#footer_links ul li {
+	height: 32px;
+	list-style: none;
+	text-align: right;
+	padding-right: 42px;
+	padding-top: 14px;
+	background-repeat: no-repeat;
+	background-position: center right;
+}
+
+#footer_links ul li#twitter {
+	background-image: url(../images/social_media/twitter_32.png);
+}
+
+#footer_links ul li#facebook {
+	background-image: url(../images/social_media/facebook_32.png);
+}
+
+#footer_links ul li#email {
+	background-image: url(../images/social_media/email_32.png);
+}
+
+#footer_links ul li#phone {
+	background-image: url(../images/social_media/google_voice_32.png);
 }
