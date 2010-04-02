@@ -26,7 +26,8 @@ filter:
 														 'Memento',
 														 'Apocalypse Now',
 														 'Pi',
-														 'Brazil'
+													     'The Third Man',
+													     'The Godfather'
 														],
 											 :info   => "Shooting, editing, scripting. Coppola, Gilliam, Scott, Aranofsky, Lumet, Maysles. Chopin, Tool, Tolkien, British Isles, Mara, integrity. I was rescued by Eric, Andrew and Mara from a dumpster at the Haverhill International Film Festival. Sky Asylum backwards is Muslim Skis.</p><p>Mara: He learned his dance moves from Jesus."}) %>
 												

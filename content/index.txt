@@ -20,28 +20,36 @@ filter:
 
 <div id="columns" class="clear span-24 last">
 	  	<%= render(:partial => "column", :locals => {:column_id    => '1',
-													 :column_span  => 'prepend-1 span-7', 
+													 :column_span  => 'prepend-2 span-5', 
 													 :image_name   => 'filmstrip.png',
 													 :alt_name     => 'filmstrip',
 													 :column_title => 'FEATURE-LENGTH FILMS & DOCUMENTARIES',
 													 :description  => "We are currently in production on several feature-length films and documentaries."
 													}) %>
-													
-		<%= render(:partial => "column", :locals => {:column_id    => '2',
-													:column_span  => 'span-7', 
-													:image_name   => 'dvd.png',
-													:alt_name     => 'dvd',
-													:column_title => 'VHS TO DVD TRANSFERS',
-													:description  => "Transfer all of your old VHS video footage to DVD or digital format. Protect your memories by keeping them in a format that will last for years to come."
-													}) %>
 																								
-		<%= render(:partial => "column", :locals => {:column_id    => '3',
-													:column_span  => 'span-7 append-2 last', 
+		<%= render(:partial => "column", :locals => {:column_id    => '2',
+													:column_span  => 'span-5', 
 													:image_name   => 'creditcard.png',
 													:alt_name     => 'creditcard',
-													:column_title => 'WEDDING AND EVENT FILMING',
-													:description  => "Let us capture the memories of that special day."
-													}) %>																																																																								
+													:column_title => 'PROMOTIONAL',
+													:description  => "Promotional videos."
+													}) %>
+													
+		<%= render(:partial => "column", :locals => {:column_id    => '3',
+													 :column_span  => 'span-5', 
+													 :image_name   => 'creditcard.png',
+													 :alt_name     => 'creditcard',
+													 :column_title => 'EVENT FILMING',
+													 :description  => "Let us capture the memories of that special day."
+																								}) %>
+																								
+		<%= render(:partial => "column", :locals => {:column_id    => '4',
+													 :column_span  => 'span-5 append-2 last', 
+													 :image_name   => 'dvd.png',
+													 :alt_name     => 'dvd',
+													 :column_title => 'VHS TO DVD TRANSFERS',
+													 :description  => "Transfer all of your old VHS video footage to DVD or digital format. Protect your memories by keeping them in a format that will last for years to come."
+																																			}) %>																																																																							
 </div>
 
 </div>
