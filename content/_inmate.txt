@@ -19,6 +19,6 @@ filter: erb
 		</div>
     </div>
 	<div class="headshot span-4 last">
-		<img src="images/<%= name %>.jpg" alt="<%= name %>" />
+		<img src="images/inmates/<%= name %>.jpg" alt="<%= name %>" />
 	</div>
 </div>

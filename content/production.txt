@@ -20,11 +20,33 @@ filter:
 												:movie_description  => "Author Jay Atkinson discusses his book, <em>Paradise Road</em>, which traces the cross-country journey of Jack Kerouac that became the foundation of his novel <em>On the Road</em>. The author highlights Kerouac's roots in Lowell, Massachusetts.
 												<br />
 												<br />Get more info at www.jayatkinson.com"}) %>
+													
+	<div id="thumbnail-main" class="clear prepend-1 span-23">
+		THIS IS WHERE THE THUMBNAILS GO
 		
+		<h3>CATEGORIES</h3>
+		<ul>
+			<li>FEATURES</li>
+			<li>DOCUMENTARIES</li>
+			<li>EVENTS</li>
+			<li>PROMOTIONAL</li>
+		</ul>
+		
+		<div id="thumbnails">
+			<%= render(:partial => "thumbnail", :locals => {:id => '1', :name => 'one'}) %>
+		</div>
+		
+		a = [1,2,3,4]
+		<% a.each do |number| %>
+			<%= render(:partial => "thumbnail", :locals => {:id => '1', :name => 'one'}) %>
+		<% end %>
+		
+	</div>
+	
 	<%= render(:partial => "vimeo", :locals => {:movie_index   		=> '2',
 												:title          	=> "OUR DEMO REEL",
 												:width		  		=> '400',
 												:height        		=> '265',
 												:vimeo_url     		=> 'http://vimeo.com/moogaloop.swf?clip_id=8828974',
-												:movie_description  => "Our demo reel"}) %>												
+												:movie_description  => "Our demo reel"}) %>											
 </div>
